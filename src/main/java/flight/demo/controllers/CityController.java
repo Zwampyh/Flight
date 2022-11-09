@@ -11,7 +11,7 @@ import flight.demo.models.Cities;
 import flight.demo.services.CityService;
 
 @RestController
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin(origins = {"http://localhost:4200"})
 public class CityController {
 	private CityService cs;
 	
