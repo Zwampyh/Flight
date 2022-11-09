@@ -12,7 +12,7 @@ import flight.demo.models.Flights;
 import flight.demo.services.FlightsService;
 
 @RestController
-@CrossOrigin
+@CrossOrigin("http://localhost:4200")
 public class FlightsController {
     private FlightsService fs;
 
